@@ -1,13 +1,15 @@
 h1{
     color: aqua;
 }
+
 .sticky{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    text-shadow:10cm;
 }
 .container{
 
@@ -18,6 +20,7 @@ h1{
     padding: 4%;
     align-items: center;
     flex-wrap: wrap;
+
 }
 .card{
     size: 60%;
@@ -27,3 +30,30 @@ h1{
     height: 20%;
     width: 100%;
 }
+
+.img{
+    width: 100vw;
+    height: 40vh;
+   background-image: url(kitchen2.jpg);
+    background-size: cover;
+    
+
+}
+footer{
+    background-color: rgb(22, 21, 21);
+    margin-bottom: 0%;
+    padding: 0%;
+    color: rgb(230, 243, 243);
+}
+.direction{
+    padding: 3px;
+color: rgb(1, 8, 8);
+height: 6px;
+background-color: rgb(255, 255, 255);
+text-decoration: none;
+
+}
+.direction:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
