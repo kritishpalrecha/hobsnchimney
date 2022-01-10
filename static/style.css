@@ -14,12 +14,13 @@ h1{
 .container{
 
     display: flex;
-    justify-content:center;
-    margin: 2px;
+    justify-content:space-evenly;
+  
     flex-direction: row;
-    padding: 4%;
+   margin: 4%;
     align-items: center;
     flex-wrap: wrap;
+   
 
 }
 .card{
@@ -34,8 +35,9 @@ h1{
 .img{
     width: 100vw;
     height: 40vh;
-   background-image: url(kitchen2.jpg);
+   background-image: url(kitchen3.jpg);
     background-size: cover;
+    background-position: right;
     
 
 }
@@ -56,4 +58,28 @@ text-decoration: none;
 .direction:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
+  }
+  .aa{
+      color:black;
+      text-decoration: none;
+  }
+  .aa:hover{
+      color: black;
+  }
+
+  .about{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+      text-decoration: bisque;
+   flex-wrap: wrap;
+   background-color: rgb(148, 148, 148);
+      
+  }
+  .fon
+  {
+    font-family: 'Roboto', sans-serif;
+    
+
   }
