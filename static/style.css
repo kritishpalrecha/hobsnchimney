@@ -75,8 +75,19 @@ text-decoration: none;
       text-decoration: bisque;
    flex-wrap: wrap;
    background-color: rgb(148, 148, 148);
-      
-  }
+  }  
+  .experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    color: rgb(255, 255, 255);
+
+ flex-wrap: wrap;
+ background-color: rgb(10, 1, 1);
+ padding-left: 23%;
+  } 
+
   .fon
   {
     font-family: 'Roboto', sans-serif;
