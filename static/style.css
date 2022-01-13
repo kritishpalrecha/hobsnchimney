@@ -17,15 +17,18 @@ h1{
     justify-content:space-evenly;
   
     flex-direction: row;
-   margin: 4%;
+   margin: 5%;
     align-items: center;
     flex-wrap: wrap;
-   
+ 
 
 }
 .card{
     size: 60%;
-    margin: 2%;
+    margin-left: 2%;
+    margin-bottom: 6%;
+   
+
 }
 .cara{
     height: 20%;
@@ -38,6 +41,7 @@ h1{
    background-image: url(kitchen3.jpg);
     background-size: cover;
     background-position: right;
+    
     
 
 }
@@ -98,6 +102,7 @@ text-decoration: none;
   .cardd{
       background-color: rgb(20, 19, 19);
       color: white;
+      
   }
  .bigbox{
      display:flex;
@@ -113,7 +118,7 @@ text-decoration: none;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top:10vh;
+    padding-top:5vh;
     padding-bottom: 5vh;
    
 
@@ -122,6 +127,7 @@ text-decoration: none;
  .iimg{
     
      height: 30vh;
+     margin-top:5vh;
   
     
 
