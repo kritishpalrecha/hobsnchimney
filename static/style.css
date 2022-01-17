@@ -156,3 +156,54 @@ text-decoration: none;
     justify-content: center;
 
 }
+.dabba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+
+}
+.element{
+    border-style:solid;
+    border-width: 1px;
+
+margin: 8px;
+    height: 240px;
+    width: 170px;
+    display: flex;
+flex-direction: column;
+padding: 5px;
+
+
+
+}
+.ha{
+
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.price{
+    margin-top: 3px;
+    padding: 5px;
+   
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+.model{
+    font-size: 13px;
+    font-weight:700;
+   
+
+}
+.mrp{
+ 
+    font-size: 12px;
+    color: rgb(1, 129, 235);
+    font-weight: 600;
+
+}
